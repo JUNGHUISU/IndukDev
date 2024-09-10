@@ -1,0 +1,125 @@
+header {
+    display: flex
+}
+
+nav{
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(#ffcfae,#AEDDFF);
+    flex-direction: column;
+}
+
+.vending-machine {
+    width: 300px;
+    height: 500px;
+    background-color: #ff5473;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.grass{
+    width: 800px;
+    height: 40px;
+    background-color: #519A49;
+    border-radius: 20px 20px 0 0;
+}
+
+.ground{
+    width: 800px;
+    height: 80px;
+    background-color: #9A8149;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-display {
+    background-color: #eef8ff;
+    color: #000000;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+.product-shelf {
+    height: 50px;
+    background-color: #918C88;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-item-1 {
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(45deg, red 25%, white 25% 50%, red 50% 75%, white 75%);
+    margin: 0 5px;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-item-2 {
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(45deg, blue 25%, white 25% 50%, blue 50% 75%, white 75%);
+    margin: 0 5px;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-item-3 {
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(45deg, green 25%, white 25% 50%, green 50% 75%, white 75%);
+    margin: 0 5px;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.bottom-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag-card {
+    background-color: #242221;
+    color: #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
+
+.output {
+    background-color: #242221;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 160px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
