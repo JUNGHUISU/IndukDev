@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock with Alarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="battery-container">
+            배터리: <span id="battery">100%</span>
+        </div>
+        <div class="clock-container">
+            <div id="date">yy-mm-dd</div>
+            <div id="time">hh:mm:ss</div>
+        </div>
+        <div class="alarm-container">
+            <div>알람 설정</div>
+            <input type="number" id="alarm-hour" placeholder="시" min="0" max="23">
+            <input type="number" id="alarm-minute" placeholder="분" min="0" max="59">
+            <input type="number" id="alarm-second" placeholder="초" min="0" max="59">
+            <button onclick="addAlarm()">알람 추가</button>
+            <div>알람 현황</div>
+            <ul id="alarm-list"></ul>
+        </div>
+        <div class="brightness-container">
+            <button onclick="changeBrightness('up')">밝기 UP</button>
+            <button onclick="changeBrightness('down')">밝기 DOWN</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

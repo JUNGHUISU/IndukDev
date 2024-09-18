@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.battery-container, .clock-container, .alarm-container, .brightness-container {
+    margin: 20px 0;
+}
+
+#clock {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#time.off {
+    background-color: black;
+    color: black;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+input {
+    width: 60px;
+    margin: 5px;
+}
